@@ -1,7 +1,7 @@
 
-# A Port Scanner Tool using Python
+# A Port Scanner Tool using Java
 
-A simple and efficient port scanner written in Python. This tool scans a target IP address for open ports and lists them, prioritizing common ports before scanning the rest.
+A simple and efficient port scanner written in Java. This tool scans a target IP address for open ports and lists them, prioritizing common ports before scanning the rest.
 
 ## Description
 
@@ -21,23 +21,22 @@ Port Scanner is a tool designed to help you quickly identify open ports on a tar
 
 1. **Clone the repository**:
    ```bash
-    gh repo clone RohitBansal025/A-Port-Scanner-Tool
+    gh repo clone Shubh_Das029/A-Port-Scanner-Tool
 
 2. **Navigate to the project diretory**:
      cd A-Port-Scanner-Tool
 
-3. **Ensure you have Python 3 installed. You can check by running**:
-     python3 --version
+3. **Ensure you have Java installed. You can check by running:**:
+     java -version
+
 
 ## Usage:
 
 1.  **Open you Terminal**
-2.  **Run the script with the target domain name or IP address as an argument**:
-        python3 scanner.py <target_ip or target website>
-        for example: python3 Scanner.py 192.168.1.1
-                               or like
-                     python3 Scanner.py google.com
-4.  **During the scan, you will be prompted to enter the range of ports you want to scan:**
+2.  **Compile the Java code:**:
+        javac Scanner.java
+
+3.  **During the scan, you will be prompted to enter the range of ports you want to scan:**
         Enter start port for full scan: <1000>
         Enter end port for full scan: <2000>
 ## Features
@@ -48,7 +47,7 @@ Port Scanner is a tool designed to help you quickly identify open ports on a tar
     This project is licensed under the MIT License - see the [LICENSE] file for details.
         MIT License
 
-    Copyright (c) 2024 RohitBansal025
+    Copyright (c) 2024 Shubh_Das029
 
     Permission is hereby granted, free of charge, to any person obtaining a copy
     of this software and associated documentation files (the "Software"), to deal
